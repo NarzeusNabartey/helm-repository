@@ -2,10 +2,10 @@ apiVersion: v1
 entries:
   flask-chart:
   - apiVersion: v1
-    created: "2019-12-06T12:37:34.281753+08:00"
+    created: "2019-12-06T14:49:47.638995+08:00"
     digest: 0da1b782919db861986b004c8d9c96754eb4183b0a5f00dfd021962b0ce44d15
     name: flask-chart
     urls:
     - flask-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2019-12-06T12:37:34.280994+08:00"
+generated: "2019-12-06T14:49:47.638469+08:00"
