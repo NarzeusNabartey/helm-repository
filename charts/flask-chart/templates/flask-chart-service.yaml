@@ -1,0 +1,12 @@
+apiVersion: {{ .Values.service.apiVersion }}
+kind: Service
+metadata:
+  name: {{ .Values.service.metadata.name }}
+spec:
+  selector:
+    app: {{ .Values.deployment.metadata.name }}
+  ports:
+  - protocol: {{ .Values.service.protocol }}
+    port: {{ .Values.service.externalPort }}
+    targetPort: {{ .Values.service.internalPort }}
+  type: LoadBalancer
